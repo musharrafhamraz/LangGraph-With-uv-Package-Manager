@@ -12,7 +12,7 @@ async def main():
         {
             "math":{
                 "command":"python",
-                "args":["mathserver.py"], ## Ensure correct absolute path
+                "args":["C:\\Users\\PMLS\\Desktop\\uv_langgraph\\mcp_server\\mathserver.py"], ## Ensure correct absolute path
                 "transport":"stdio",
             
             },
