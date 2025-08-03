@@ -5,3 +5,9 @@ groq
 python-dotenv
 langchain_groq
 langchain_tavily
+requests
+streamlit
+python-linkedin-v2
+schedule
+pandas
+
