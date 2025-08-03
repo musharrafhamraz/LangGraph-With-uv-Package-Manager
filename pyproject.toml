@@ -15,7 +15,6 @@ dependencies = [
     "langgraph>=0.6.1",
     "langsmith>=0.4.8",
     "mcp>=1.12.3",
-    "pandas>=2.3.1",
     "pyowm>=3.3.0",
     "python-dotenv>=1.1.1",
     "python-linkedin-v2>=0.9.4",
