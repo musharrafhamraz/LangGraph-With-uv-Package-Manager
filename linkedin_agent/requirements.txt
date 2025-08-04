@@ -1,0 +1,11 @@
+langgraph>=0.0.15
+langchain>=0.1.0
+langsmith>=0.0.75
+groq>=0.4.0
+python-dotenv>=1.0.0
+langchain_groq>=0.0.1
+requests>=2.31.0
+streamlit>=1.32.0
+python-linkedin-v2>=0.9.0
+schedule>=1.2.0
+pandas>=2.1.0
