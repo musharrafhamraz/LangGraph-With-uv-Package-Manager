@@ -33,15 +33,22 @@ async def main():
         model,tools
     )
 
-    # math_response = await agent.ainvoke(
-    #     {"messages": [{"role": "user", "content": "what's 3 + 5?"}]}
-    # )
+    # Math example
+    math_response = await agent.ainvoke(
+        {"messages": [{"role": "user", "content": "what's 3 + 5?"}]}
+    )
+    print("Math response:", math_response['messages'][-1].content)
 
-    # print("Math response:", math_response['messages'][-1].content)
-
+    # Current weather example
     weather_response = await agent.ainvoke(
-        {"messages": [{"role": "user", "content": "what is the weather in California?"}]}
+        {"messages": [{"role": "user", "content": "what is the weather in London?"}]}
     )
     print("Weather response:", weather_response['messages'][-1].content)
+    
+    # Forecast example
+    forecast_response = await agent.ainvoke(
+        {"messages": [{"role": "user", "content": "what is the weather forecast for New York for the next 3 days?"}]}
+    )
+    print("\nForecast response:", forecast_response['messages'][-1].content)
 
 asyncio.run(main())
