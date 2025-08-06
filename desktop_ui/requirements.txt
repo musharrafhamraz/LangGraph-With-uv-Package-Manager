@@ -1,0 +1,13 @@
+# UI dependencies
+streamlit>=1.47.1
+
+# MCP client dependencies
+langchain
+langgraph
+langchain_groq
+langchain_core
+
+# Other dependencies
+python-dotenv
+requests
+asyncio
