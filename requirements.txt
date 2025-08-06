@@ -1,3 +1,4 @@
+asyncio
 langgraph
 langchain
 langsmith
@@ -6,8 +7,7 @@ python-dotenv
 langchain_groq
 langchain_tavily
 requests
-streamlit
+streamlit>=1.47.1
 python-linkedin-v2
 schedule
 pandas
-

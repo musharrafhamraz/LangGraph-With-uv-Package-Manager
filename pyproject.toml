@@ -5,16 +5,15 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "asyncio",
     "flask>=3.1.1",
     "groq>=0.30.0",
     "ipykernel>=6.30.0",
     "langchain>=0.3.27",
     "langchain-groq>=0.3.6",
-    "langchain-mcp-adapters>=0.1.9",
     "langchain-tavily>=0.2.11",
     "langgraph>=0.6.1",
     "langsmith>=0.4.8",
-    "mcp>=1.12.3",
     "numpy>=2.3.2",
     "pandas>=2.3.1",
     "pillow>=11.3.0",
